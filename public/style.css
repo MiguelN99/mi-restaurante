@@ -1,0 +1,29 @@
+body {
+    background-color: #f4f4f4;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .card {
+    border-radius: 15px;
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 200px; /* Ajusta el tamaño de las imágenes */
+    object-fit: cover;
+  }
+  
+  /* Ajustes específicos para móviles */
+  @media (max-width: 576px) {
+    header h1 {
+      font-size: 1.8rem;
+    }
+    .card-body {
+      padding: 1rem;
+    }
+  }
+  
